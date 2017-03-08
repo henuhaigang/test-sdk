@@ -16,6 +16,7 @@ public class ListObjectTest {
 			stu.setName("jack"+i);
 			stu.setSex("male"+i);
 			list.add(stu);
+			
 		}
 		System.out.println(JSON.toJSONString(list));
 
