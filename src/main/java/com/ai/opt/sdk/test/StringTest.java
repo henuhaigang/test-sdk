@@ -21,7 +21,20 @@ public class StringTest {
 		System.out.println(5^6);     //按位异或
 		/*System.out.println(5&&6);  语法错误
 		System.out.println(5||6);*/
-
+		
+		
+		
+		String fullstr="华南华北华西";
+		String sub="华北";
+		System.out.println("测试---》"+fullstr.indexOf(sub));
+		System.out.println("测试---》"+fullstr.indexOf("扯淡"));
+		System.out.println("测试---》"+fullstr.indexOf("华南"));
+		System.out.println("测试---》"+fullstr.indexOf("华动"));
+		
+		
+	//	StringBuilder
+		
+	//	StringBuffer
 	}
 
 }
