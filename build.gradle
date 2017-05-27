@@ -129,6 +129,7 @@ dependencies {
 	compile 'org.apache.tomcat.embed:tomcat-embed-logging-juli:8.0.21'
 	compile "javax.el:javax.el-api:2.2.4"
 	compile "redis.clients:jedis:2.9.0"
+	compile "cglib:cglib:3.2.5"
 }
 
 jar {
