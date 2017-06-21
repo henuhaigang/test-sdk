@@ -2,6 +2,8 @@ package com.ai.opt.sdk.test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ThreadPoolExecutor;
 
 
 public class ThreadPoolTest {
@@ -58,8 +60,10 @@ static List<Integer> findIndex1(int[] arr)
 	
 	
 	public static void main(String[] args) {
-		
-		// ThreadPool pool=newInteger
+		//ThreadPoolExecutor
+		//HashMap
+		//ConcurrentHashMap
+		//ThreadPool pool=newInteger
 		
 		int[] arr={1,3,1,2,2};
 		/*for(int i=0;i<arr.length;i++){
@@ -70,7 +74,10 @@ static List<Integer> findIndex1(int[] arr)
 		for(Integer i:findIndex1(arr)){
 			System.out.println(i);
 		}
+		System.out.println(1<<2);
 		
+		
+		System.out.println(1>>2);
 		//System.out.println(findIndex1(arr));
 	}
 }
